@@ -8,3 +8,5 @@ spec:
       image: node:20-alpine
       ports:
         - containerPort: 5050
+        - protocol: TCP
+      type: NodePort
