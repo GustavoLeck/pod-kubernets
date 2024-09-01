@@ -7,7 +7,5 @@ spec:
     - name: jplay-api
       image: node:20-alpine
       ports:
-        - protocol: TCP
-          port: 5050
-          targetPort: 5050
+        - containerPort: 5050
       type: NodePort
