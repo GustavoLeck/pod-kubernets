@@ -1,10 +1,10 @@
-apiVersion: v1
+apiVersion: v
 kind: Pod
 metadata:
   name: my-first-pod
 spec:
   containers:
     - name: jplay-api
-      image: jplay-api
+      image: node:20-alpine
       ports:
         - containerPort: 5050
